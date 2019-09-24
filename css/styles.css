@@ -4,14 +4,64 @@ body, html {
 	padding: 0;
 }
 
-.container {
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background: #fff;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
-	border-radius: 14px;
-	padding-bottom: 20px;
-	width: 320px;
+
+
+#container {
+  background-color: grey;
+  width: 60%;
+  margin: 0 auto;
 }
+
+.heading {
+  text-align: center;
+  padding: 1em;
+  font-size: 1.3em;
+}
+
+.assets {
+  text-align: center;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.form-con {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.field {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+input {
+  width: 80%;
+  padding: 0.5em;
+  border-radius: 8px;
+}
+
+.btn-field {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#submit-btn {
+  background-color: #000;
+  color: #fff;
+  padding: 0.8em;
+  margin: 1em;
+}
+
+#submit-btn:hover {
+  cursor: pointer;
+  background-color: green;
+  color: #000;
+}
+
+label:hover {
+  cursor: pointer;
+}
+

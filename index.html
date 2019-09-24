@@ -1,67 +1,206 @@
 <!DOCTYPE html>
-<html>
-<head><title>Networth Calculator</title>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Net Worth Calculstor</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
-  <body>
-    <h1> Networth Calculator</h1>
-    <div id="container">
-      <h3>Assets</h3>
-    <form>
-      Home:<input type="text" id="asst" onkeyup="myFunction()" onfocus="myOtherFunction(this)"/>
-      <p>
-      Other real estate: <input type="text" id="asst" onkeyup="myFunction()" onfocus="myOtherFunction(this)"/>
-      <p>
-      Bonds: <input type="text" id="asst" onkeyup="myFunction()" onfocus="myOtherFunction(this)"/>
-      <p>z
-      Stocks:<input type="text" id="asst" onkeyup="myFunction()" onfocus="myOtherFunction(this)"/>
-      <p>
-      Mutual funs: <input type="text" id="asst" onkeyup="myFunction()" onfocus="myOtherFunction(this)"/>
-      <p>
-      Pension accounts: <input type="text" id="asst" onkeyup="myFunction()" onfocus="myOtherFunction(this)"/>
-      <p>
-      Life insurance value:<input type="text" id="asst" onkeyup="myFunction()" onfocus="myOtherFunction(this)"/>
-      <p>
-      Cars: <input type="text" id="asst" onkeyup="myFunction()" onfocus="myOtherFunction(this)"/>
-      <p>
-      Other vehicles: <input type="text" id="asst" onkeyup="myFunction()" onfocus="myOtherFunction(this)"/>
-      <p>
-      Household items:<input type="text" id="asst" onkeyup="myFunction()" onfocus="myOtherFunction(this)"/>
-      <p>
-      Jewelry: <input type="text" id="asst" onkeyup="myFunction()" onfocus="myOtherFunction(this)"/>
-      <p>
-      Savings accounts: <input type="text" id="cash" onkeyup="myFunction()" onfocus="myOtherFunction(this)"/>
-      <p>
-      Fixed deposits:<input type="text" id="cash" onkeyup="myFunction()" onfocus="myOtherFunction(this)"/>
-      <p>
-      Cash at hand: <input type="text" id="cash" onkeyup="myFunction()" onfocus="myOtherFunction(this)"/>
-      <p>
-      Other: <input type="text" id="cash" onkeyup="myFunction()" onfocus="myOtherFunction(this)"/>
-      <p>
+<body>
+  <div id="container">
+    <div class="heading">
+      <h1> Net Worth Calculator</h1>
+    </div>
+    <div class="form-con">
+      <div class="assets">
+        <h3>Assets</h3>
+      </div>
+      <form action="" id="form">
+        <div class="field">
+          <div>
+            <label for="home">Home:</label>
+          </div>
+          <div>
+            <input type="number" id="home" class="plus"/>
+          </div>
+        </div>
+        <div class="field">
+          <div>
+            <label for="real-estate">Other real estate:</label>
+          </div>
+          <div>
+            <input type="number" id="real-estate" class="plus"/>
+          </div>
+        </div>
+        <div class="field">
+          <div>
+            <label for="bonds">Bonds:</label>
+          </div>
+          <div>
+            <input type="number" id="bonds" class="plus"/>
+          </div>
+        </div>
+        <div class="field">
+          <div>
+            <label for="stocks">Stocks:</label>
+          </div>
+          <div>
+            <input type="number" id="stocks" class="plus"/>
+          </div>
+        </div>
+        <div class="field">
+          <div>
+            <label for="mutual-funs">Mutual funs:</label>
+          </div>
+          <div>
+            <input type="number" id="mutual-funs" class="plus"/>
+          </div>
+        </div>
+        <div class="field">
+          <div>
+            <label for="pension">Pension Account:</label>
+          </div>
+          <div>
+            <input type="number" id="pension" class="plus"/>
+          </div>
+        </div>
+        <div class="field">
+          <div>
+            <label for="insurance">Life Insurance value:</label>
+          </div>
+          <div>
+            <input type="number" id="insurance" class="plus"/>
+          </div>
+        </div>
+        <div class="field">
+          <div>
+            <label for="cars">Cars:</label>
+          </div>
+          <div>
+            <input type="number" id="cars" class="plus"/>
+          </div>
+        </div>
+        <div class="field">
+          <div>
+            <label for="other-vehicles">Other Vehicles:</label>
+          </div>
+          <div>
+            <input type="number" id="other-vehicles" class="plus"/>
+          </div>
+        </div>
+        <div class="field">
+          <div>
+            <label for="household">Household Items:</label>
+          </div>
+          <div>
+            <input type="number" id="household" class="plus"/>
+          </div>
+        </div>
+        <div class="field">
+          <div>
+            <label for="jewelry">Jewelry:</label>
+          </div>
+          <div>
+            <input type="number" id="jewelry" class="plus"/>
+          </div>
+        </div>
+        <div class="field">
+          <div>
+            <label for="savings-account">Savings Account:</label>
+          </div>
+          <div>
+            <input type="number" id="savings-account=" class="plus"/>
+          </div>
+        </div>
+        <div class="field">
+          <div>
+            <label for="fixed-dep">Fixed Deposit:</label>
+          </div>
+          <div>
+            <input type="number" id="fixed-dep" class="plus"/>
+          </div>
+        </div>
+        <div class="field">
+          <div>
+            <label for="cash-hand">Cash At Hand:</label>
+          </div>
+          <div>
+            <input type="number" id="other" class="plus"/>
+          </div>
+        </div>
+        <div class="field">
+          <div>
+              <label for="other">Other:</label>
+          </div>
+          <div>
+            <input type="number" class="plus" id="fixed-dep"/>
+          </div>
+        </div>
 
-      <h3>Liabilities</h3>
+        <div class="center-text">
+            <h3>Liabilities</h3>
+        </div>
 
-      Home mortgage: <input type="text" id="liab" onkeyup="myFunction()" onfocus="myOtherFunction(this)"/>
-      <p>
-      Other mortgage: <input type="text" id="liab" onkeyup="myFunction()" onfocus="myOtherFunction(this)"/>
-      <p>
-      Car Loans: <input type="text" id="liab" onkeyup="myFunction()" onfocus="myOtherFunction(this)"/>
-      <p>
-      Business loans: <input type="text" id="liab" onkeyup="myFunction()" onfocus="myOtherFunction(this)"/>
-      <p>
-      Credit card debt: <input type="text" id="liab" onkeyup="myFunction()" onfocus="myOtherFunction(this)"/>
-      <p>
-      Other loans: <input type="text" id="liab" onkeyup="myFunction()" onfocus="myOtherFunction(this)"/>
-      <p>
-
+        <div class="field">
+          <div>
+            <label for="home-mortage">Home Mortage:</label>
+          </div>
+          <div>
+            <input type="number" id="home-mortage" class="minus"/>
+          </div>
+        </div>
+        <div class="field">
+          <div>
+            <label for="other-mortage">Other Mortage:</label>
+          </div>
+          <div>
+            <input type="number" id="other-mortage" class="minus"/>
+          </div>
+        </div>
+        <div class="field">
+          <div>
+            <label for="car-loans">Car Loans:</label>
+          </div>
+          <div>
+            <input type="number" id="car-loans" class="minus" />
+          </div>
+        </div>
+        <div class="field">
+          <div>
+            <label for="business-loans">Business Loans:</label>
+          </div>
+          <div>
+            <input type="number" id="business-loans" class="minus" />
+          </div>
+        </div>
+        <div class="field">
+          <div>
+            <label for="credit-card">Credit Card Dept:</label>
+          </div>
+          <div>
+            <input type="number" id="credit-card" class="minus" />
+          </div>
+        </div>
+        <div class="field">
+          <div>
+            <label for="other-loans">Other Loans:</label>
+          </div>
+          <div>
+            <input type="number" id="other-loans" class="minus" />
+          </div>
+        </div>
+        <div class="btn-field">
+          <input type="submit" name="submit" id="submit-btn" value="Calculate">
+        </div>
+      </div>
     </form>
 
-
-
-    <p>Your Networth is : <span id="demo"></span></p>
-
+    <div class="field">
+      <h2>Your Networth is : <span id="demo"></span></h2>
     </div>
+  </div>
 
-    <script src="js/src.js"></script>
-  </body>
+  <script src="js/script.js"></script>
+</body>
 </html>
